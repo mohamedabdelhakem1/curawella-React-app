@@ -1,0 +1,117 @@
+.button,
+.button:hover {
+    color: #1683A4;
+    margin: 3rem;
+    background: white;
+    border: none;
+    border-radius: 8px;
+    width: 200px;
+    height: 50px;
+    font-size: 22px;
+    font-weight: 300;
+    font-family: "Questrial";
+}
+
+.button:hover,
+.button:focus-within {
+    color: white;
+    margin: 3rem;
+    background: #1683A4;
+    border: none;
+    border-radius: 8px;
+    width: 200px;
+    height: 50px;
+    font-size: 22px;
+    font-weight: 300;
+    font-family: "Questrial";
+}
+
+.Button__box {
+    text-align: center;
+}
+
+.booking__box {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3%;
+
+}
+.form__booking {
+    width: 27%;
+    height:300px;
+    background: white;
+    text-align: center;
+    font-family: 'Questrial';
+    font-size: 22px;
+    border-radius: 8px;
+    color : #1683A4;
+    border: 1px solid #e8e8e8;
+    box-shadow: 2px 2px #d6d6d6;
+}
+.appointment {
+    
+    width:80%;
+    height: 15%;
+    font-family: 'Questrial';
+    color: #1683A4; 
+    font-size: 18px;
+    border-radius: 8px ;
+    background-color: #f2f2f2;
+    border: 1px double #e8e8e8;
+    margin-bottom: 5%;
+}
+.calender {
+    color: #1683A4;
+    margin-right: 6rem;
+    size: 50%;
+}
+
+.date__picker {
+    width:45%;
+    margin-right: 3%;
+    height: 75%;
+    font-family: 'Questrial';
+    color: #1683A4; 
+    font-size: 17px;
+    border-radius: 8px ;
+    background-color: #f2f2f2;
+    border: 1px double #e8e8e8;
+}
+.time__picker {
+    width:30%;
+    height: 75%;
+    font-family: 'Questrial';
+    color: #1683A4; 
+    font-size: 17px;
+    border-radius: 8px ;
+    background-color: #f2f2f2;
+    border: 1px double #e8e8e8;
+}
+.appoint_date{
+    margin-bottom: 5%;
+    height: 20%;
+}
+.Book {
+    color: white;
+    background: #1683A4;
+    border: none;
+    border-radius: 8px;
+    width: 27%;
+    height: 13%;
+    font-size: 20px;
+    font-weight: 50;
+    font-family: "Questrial";
+}
+
+.Book:hover,
+.Book:focus-within {
+    color: #1683A4;
+    background: white;  
+    border: none;
+    border-radius: 8px;
+    width: 27%;
+    height: 13%;
+    font-size: 20px;
+    font-weight: 50;
+    font-family: "Questrial"; 
+}

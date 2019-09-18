@@ -1,0 +1,20 @@
+.reviews {
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+    flex-wrap: wrap;
+}
+.reviews__box {
+    background: white;
+    min-width: 100%;
+    overflow:inherit;
+
+}
+.title {
+    padding: 1%;
+    text-align: center;
+    color: grey;
+    font-family: 'Questrial';
+    font-weight: lighter;
+    font-size: 25px;
+}

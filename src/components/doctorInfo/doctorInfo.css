@@ -1,0 +1,58 @@
+.doctor__header {
+    background: #1683A4;
+    font-family: 'Questrial';
+    padding: 1.5rem 2.5rem;
+    min-width: 100%;
+    color: #fffff4;
+    text-align: center;
+}
+
+.doctor__name {
+    font-size: 35;
+    font-weight: 10;
+}
+
+.img {
+    width: 300px;
+    height: 300px;
+    margin-left: 8rem;
+    margin-top: 2.5rem;
+}
+
+.doctor__info {
+    display: flex;
+    position: relative;
+    left: 5%;
+}
+
+.doctor__about {
+    font-family: 'Questrial';
+    margin-left: 2rem ;
+    margin-right: 0rem;
+    margin-top:2rem;
+    margin-bottom: 0rem;
+}
+
+.doctor__infoName {
+    color: #56b5db;
+    font-size: 25px;
+    margin-bottom: 0.5rem;
+}
+
+.doctor__infoTitle {
+    color: #94d2eb;
+    font-size: 20px;
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+}
+
+.doctor__content {
+    width: 60%;
+    text-align: justify;
+    margin: 0.5rem 0rem 0rem 0rem;
+    font-size: 13px;
+    color: grey;
+}
+.doctor__cost {
+    margin-right: 7rem;
+}
