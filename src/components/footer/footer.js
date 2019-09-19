@@ -8,7 +8,8 @@ class Footer extends React.Component {
     links = ['Facebook link', 'Twitter link', 'Youtube link', 'Linkedin link'];
 
     render() {
-        return (<div className="footer">
+
+        return (<footer className="footer">
             <div className="column">
                 <h3 className="h3">Home</h3>
                 {this.home.map((str) => (<p><a className="p" href="/*">{str}</a></p>))}
@@ -22,7 +23,7 @@ class Footer extends React.Component {
                 {this.links.map((str) => (<p><a className="p" href="/*">{str}</a></p>))}
 
             </div>
-            <div className="google_apple">
+            <div className="column">
                 <h3 className="Download">Download our app</h3>
                 <div className="icons"> <p>
                     <a cals href="/*"><img className="google" src={google} alt="google_play_logo"></img></a>
@@ -34,7 +35,7 @@ class Footer extends React.Component {
 
             </div>
 
-        </div>);
+        </footer>);
     }
 }
 

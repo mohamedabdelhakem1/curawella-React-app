@@ -14,8 +14,7 @@ class DoctorInfo extends React.Component {
     title = `Speciality`;
     cost = [100, 100, 100];
     render() {
-        return (<div>
-
+        return (<section>
             <div className="doctor__header">
                 <h1 className="doctor__name">
                     Dr Jane Smith
@@ -27,9 +26,7 @@ class DoctorInfo extends React.Component {
                     starSpacing="2px" />
             </div>
             <div className="doctor__info">
-                <div>
-                    <img className="img" src={docImg} alt="doctor_image"></img>
-                </div>
+                <img className="img" src={docImg} alt="doctor_image"></img>
                 <div className="doctor__about">
                     <p className="doctor__infoName">Dr Jane Smith</p>
                     <p className="doctor__content">{this.title}</p>
@@ -37,14 +34,15 @@ class DoctorInfo extends React.Component {
                     <p className="doctor__content">{this.about} </p>
                     <p className="doctor__infoTitle">Location</p>
                     <p className="doctor__content">{this.locaction}</p>
-                    <p > <span className="doctor__cost">Call: {this.cost[0]} L.E</span>
-                        <span  className="doctor__cost">Clinic: {this.cost[1]} L.E</span>
+                    <p className="cost__line">
+                        <span className="doctor__cost">Call: {this.cost[0]} L.E</span>
+                        <span className="doctor__cost">Clinic: {this.cost[1]} L.E</span>
                         <span className="doctor__cost">Home: {this.cost[2]} L.E</span>
                     </p>
                 </div>
             </div>
 
-        </div>);
+        </section>);
     }
 }
 export default DoctorInfo;

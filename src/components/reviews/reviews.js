@@ -19,12 +19,12 @@ class Reviews extends React.Component {
     thisClass = this;
     render() {
         return (
-            <div className="reviews__box">
+            <section className="reviews__box">
                 <p className="title"> Patient's Review</p>
                 <div className="reviews">
                     {this.rate.map( obj=> (<SingleReview review={obj.review} DocRate={obj.rate} />))    }
                 </div>
-            </div>
+            </section>
         );
     }
 }
